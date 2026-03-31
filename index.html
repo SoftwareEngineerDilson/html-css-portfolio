@@ -146,14 +146,13 @@
     <script>
         let count = 0;
         function toggleStylesheet() {
-            count += 1;
+            count ++;
             if (count % 2 !== 0) {
                 document.getElementById("head").innerHTML = `   
                 <meta charset="UTF-8"> \n
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"> \n
                 <title>Resume</title> \n
-                <link rel="stylesheet" href="./assets/css/portfolio.css"> \n
-                `;
+                <link rel="stylesheet" href="./assets/css/portfolio.css"> \n`;
             } else {
                 document.getElementById("head").innerHTML = `   
                 <meta charset="UTF-8"> \n
