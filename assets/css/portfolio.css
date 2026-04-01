@@ -3,9 +3,6 @@ body {
     background-color: hsla(66, 76%, 62%, 0.129);
     margin: 25px;
 }
-p {
-    font-size: 14px;
-}
 hr {
     border: 1px solid #ccc;
     border-style:inset;
@@ -15,8 +12,10 @@ hr {
 h1, h2, h4 {
     color:rgb(2, 85, 58);
 }
-p, .skills_desc, .education_school, .education_status, .experience_desc {
+p, li{
     color: #555;
+    text-align: justify;
+    font-size: 14px;
 }
 ul {
     list-style-type: disc;
@@ -67,34 +66,24 @@ a:hover {
     cursor: pointer;
 }
 /* Heading */
-/* Objective */
-.objective_desc{
-    text-align: justify;
-    font-size: 14px;
-}
-/* Objective */
-/* Skills Summary */
-.skills_desc{
-    text-align: justify;
-    font-size: 14px;
-}
-/* Skills Summary */
 /* Education */
-.education_title{
+.education_title, .education_status{
     font-size: 15px;
     margin-bottom: 4px;
 }
-.education_school{
+.education_school {
     text-align: justify;
     margin-bottom: 4px;
     margin-top: 4px;
 }
-.education_status{
-    text-align: justify;
-    margin-bottom: 4px;
-    margin-top: 4px;
+/*Award*/
+.award {
+    margin: 0px;
 }
-/* Education */
+.detail{
+    margin-top: 2px;
+}
+/*Award*/
 /* Experience */
 .experience_title{
     font-size: 16px;
@@ -105,19 +94,14 @@ a:hover {
     margin-bottom: 4px;
     margin-top: 4px;
 }
-.experience_desc{
-    margin-bottom: 4px;
-    text-align: justify;
-    font-size: 14px;
-}
 /* Experience */
 /* Footer */
-.my_footer{
+#footer {
     color: #777;
     font-size: 14px;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 /* Footer */
 
