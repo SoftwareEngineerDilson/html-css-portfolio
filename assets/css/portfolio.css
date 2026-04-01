@@ -67,14 +67,17 @@ a:hover {
 }
 /* Heading */
 /* Education */
-.education_title, .education_status{
+.education_title {
     font-size: 15px;
     margin-bottom: 4px;
+    
 }
-.education_school {
+.education_school, .education_status {
     text-align: justify;
-    margin-bottom: 4px;
-    margin-top: 4px;
+    margin: 0;
+}
+.education_title, .education_school, .education_status {
+    margin-left: 20px;
 }
 /*Award*/
 .award {
@@ -82,6 +85,9 @@ a:hover {
 }
 .detail{
     margin-top: 2px;
+}
+.award, .detail {
+    margin-left: 20px; 
 }
 /*Award*/
 /* Experience */
@@ -112,7 +118,7 @@ a:hover {
     }
     .img_profile {
         text-align: center; /* Center the image on mobile */
-        margin-top: 30px; /* Add some space above the image on mobile */
+        margin-top: 20px; /* Add some space above the image on mobile */
     }
     .heading_name {
         font-size: 35px;
