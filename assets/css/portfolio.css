@@ -111,7 +111,7 @@ a:hover {
 }
 /* Footer */
 
-@media screen and (max-width: 500px) {
+@media (max-width:550px) {
     /* Heading */
     .heading {
         flex-direction: column; /* Stacked vertically on mobile */
